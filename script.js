@@ -9,5 +9,5 @@ function launchab() {
     stl.left = stl.right = stl.top = stl.bottom = '0';
     iframe.src = self.location;
     tab.document.body.appendChild(iframe);
-    window.parent.window.location.replace(localStorage.getItem("panicurl") || 'https://gibdist.schoology.com/home#/')
+    window.parent.window.location.replace('https://google.com/')
 }
