@@ -53,3 +53,9 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+iframe {
+    border: 0px;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
