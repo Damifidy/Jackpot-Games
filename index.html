@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jackpot Games</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./imgs/favicon.png" type="image/x-icon">
 </head>
 <body>
     <div class="center-container">
@@ -13,16 +14,18 @@
     </div>
 
     <div class="navbar">
-        <div id="left-nav">
-            <button id="home-button" class="button" class="nav-left-item">
+        <div id="nav-left">
+            <button id="home-button" class="button" onclick="window.location.href='./index.html'">
                 Jackpot Games
             </button>
             <button onclick="launchab()" id="launchab" class="button">
                 about:blank
             </button>
         </div>
-        <div id="right-nav">
-            <button id="games" class="button" onclick="window.location.href='./gs.html'" class="nav-right-item">Games</button>
+        <div id="nav-right">
+            <button id="games" class="button" onclick="window.location.href='./gs.html'">
+                Games
+            </button>
         </div>
     </div>
 

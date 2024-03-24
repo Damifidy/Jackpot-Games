@@ -1,0 +1,21 @@
+.card {
+    border-radius: 15px;
+    padding: 9px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 12px 8px rgb(159, 159, 246);
+    transform: translate(0px, -15px);
+}
+
+.card img {
+    border-radius: 15px;
+}
+
+.card p {
+    font-size: 27px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: 700;
+    color: rgb(159, 159, 246);
+}
