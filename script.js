@@ -1,6 +1,6 @@
-let pw = window.prompt('Password:', '<type here>')
-if (pw !== 'C:\Users\damie\pass4JG.txt') {
-    window.parent.window.location.replace('https://google.com/')
+let pw = window.prompt('Password:', '<type here>');
+if (pw !== 'jpfl') {
+    window.parent.window.location.replace('https://google.com/');
 }
 
 function launchab() {
