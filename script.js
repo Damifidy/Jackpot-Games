@@ -1,7 +1,9 @@
+/*
 let pw = window.prompt('Password:', '<type here>');
 if (pw !== 'jpfl') {
     window.parent.window.location.replace('https://google.com/');
 }
+*/
 
 function launchab() {
     const tab = window.open('about:blank', '_blank');
