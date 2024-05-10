@@ -9,5 +9,11 @@ function launchab() {
     stl.left = stl.right = stl.top = stl.bottom = '0';
     iframe.src = self.location;
     tab.document.body.appendChild(iframe);
-    window.parent.window.location.replace('https://google.com/')
+    window.parent.window.location.replace('https://google.com/');
 }
+
+document.querySelector("body").addEventListener("keydown", (e) => {
+    if (e.key == "`") {
+        window.parent.window.location.replace('https://google.com/');
+    }
+});
