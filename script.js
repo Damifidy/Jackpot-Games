@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-/* let pw = window.prompt('Password:', '<type here>');
-if (pw !== 'jpfl') {
-    window.parent.window.location.replace('https://google.com/');
-}
- */
-=======
-/*
-let pw = window.prompt('Password:', '<type here>');
-if (pw !== 'jpfl') {
-    window.parent.window.location.replace('https://google.com/');
-}
-*/
-
->>>>>>> 7a73c1abd7418ff494550bf2a1fd2482754f2e11
 function launchab() {
     const tab = window.open('about:blank', '_blank');
     const iframe = tab.document.createElement('iframe');

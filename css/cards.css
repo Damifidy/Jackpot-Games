@@ -16,6 +16,7 @@
     animation-direction: alternate;
     cursor: pointer;
 }
+
 .card img {
     border-radius: 15px;
 }
@@ -29,10 +30,10 @@
 
 @keyframes bob {
     from {
-      transform: translate(0px, 0px);
+        transform: translate(0px, 0px);
     }
-  
+
     to {
-      transform: translate(0px, -15px);
+        transform: translate(0px, -15px);
     }
 }
